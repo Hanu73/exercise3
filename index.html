@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Exercise 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+
+<body>
+<h5 align="center">Exercise 3 </h5>
+<div class="row col-md-12">
+    <div class="row col-md-12 borderGrey">
+    <div class="col-md borderRight min-ht210 pad-top3" align="center">
+            <img src="assets/img1.webp" class="imgSize">
+            <p>Shop All</p>
+    </div>
+
+        <div class="col-md  borderRight min-ht210 pad-top3" align="center">
+            <img src="assets/img5.webp" class="imgSize">
+            <h6 class="headingM"> Alienware Laptops</h6>
+            <p class="subHeadingM">Best-in-class gaming and VR ready</p>
+        </div>
+
+
+        <div class="col-md  borderRight min-ht210 pad-top3" align="center">
+
+            <img src="assets/img2.jpg" class="imgSize">
+            <h6 class="headingM"> Inspiron Laptops</h6>
+            <p class="subHeadingM">Laptops for home and home office</p>
+        </div>
+
+        <div class="col-md  borderRight min-ht210 pad-top3" align="center">
+
+            <img src="assets/img3.jpg" class="imgSize">
+            <h6 class="headingM">XPS Laptops & 2-in-1 PCs</h6>
+            <p class="subHeadingM">Laptops designed to be the best</p>
+        </div>
+
+        <div class="col-md  borderRight min-ht210 pad-top3" align="center">
+
+            <img src="assets/img4.jpg" class="imgSize">
+            <h6 class="headingM">G Series Gaming Laptops</h6>
+            <p class="subHeadingM">High-performance gaming</p>
+        </div>
+
+        <div class="col-md  borderRight min-ht210 pad-top3" align="center">
+
+            <img src="assets/img6.webp" class="imgSize">
+            <h6 class="headingM">Inspiron Chromebook</h6>
+            <p class="subHeadingM">For fast access to the web</p>
+        </div>
+
+
+        <div class="col-md  min-ht210 pad-top3" align="center">
+
+            <img src="assets/img6.webp" class="imgSize">
+            <h6 class="headingM">Laptop Deals</h6>
+            <p class="subHeadingM">For current Laptop Deals</p>
+        </div>
+</div>
+
+    <div class="col-md-12 row noPadLeft  mtop2">
+
+        <div class="col-md-3 noPadLeftRight borderGrey ">
+            <div class="col-md-12  noPadLeftRight">
+                <p class="borderBottomGrey paddingbottom-2 bgGrey pad-top1 padLeft3">Refine your search :</p>
+
+            </div>
+            <div class="col-md-12  ">
+                <p>Screen Size</p>
+                <label><input type="checkbox" value="eleven" onchange="sizeCheck(event)"> 11 </label> <br>
+                <label><input type="checkbox" value="twelve" onchange="sizeCheck(event)"> 12 </label> <br>
+                <label><input type="checkbox" value="thirteen" onchange="sizeCheck(event)"> 13 </label> <br>
+                <label><input type="checkbox" value="fourteen" onchange="sizeCheck(event)"> 14 </label> <br>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+<script>
+    function sizeCheck(e){
+        console.log(e.target.value);
+    }
+    function httpGett(theUrl)
+    {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', theUrl);
+        xhr.send();
+        xhr.onload = function() {
+            let responseObj = xhr.response;
+            var dataObj = responseObj;
+            console.log(dataObj)
+        };
+    }
+httpGett('assets/data.json')
+</script>
+</body>
+</html>

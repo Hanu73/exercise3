@@ -1,0 +1,68 @@
+{
+ "laptops" :[{ "11inch":
+  [{
+    "model" : "Inspiron 11 3000 Laptop",
+    "mrp": "$249.99",
+    "price" : "$179.99",
+    "data" : "7th Generation AMD A6-9220e Processor with Radeon™ R4 Graphics",
+    "specifications" : ["Windows 10 Home in S mode 64bit English", "4GB, DDR4, 2400MHz", "64GB eMMC"]
+  },
+    {
+      "model" : "Inspiron 11 3000 Laptop",
+      "mrp": "$379.99",
+      "price" : "$229.99",
+      "data" : "7th Generation AMD A9-9420e Processor with Radeon™ R5 Graphics",
+      "specifications" : ["Windows 10 Home in S mode 64bit English", "4GB, DDR4, 2400MHz", "128GB eMMC Hard Drive"]
+    },
+    {
+      "model" : "Inspiron Chromebook 11 2-in-1 Laptop",
+      "mrp": "$279.99",
+      "price" : "$229.99",
+      "data" : "Slim gaming laptops with NVIDIA© GeForce RTX™ graphics, up to 9th gen Intel® Core™ i9 processors, riveting display options, and an optional 4-zone RGB Keyboard.",
+      "specifications" : ["15'' (7590)", "17''"]
+    }
+  ]},
+   {"13inch":
+  [{
+    "model" : "New Inspiron 13 5000 Laptop",
+    "mrp": "$609.99",
+    "price" : "$599.99",
+    "data" : "10th Generation Intel® Core™ i3-10110U Processor",
+    "specifications" : ["Windows 10 Home in S Mode 64bit English", "4GB, onboard, LPDDR3, 2133MHz", "128GB M.2 PCIe NVMe Solid State Drive"]
+  },
+    {
+      "model" : "New Inspiron 13 5000 Laptop",
+      "mrp": "$779.99",
+      "price" : "$749.99",
+      "data" : "10th Generation Intel® Core™ i5-10210U Processor",
+      "specifications" : ["Windows 10 Home 64-bit English", "8GB, LPDDR3, 2133MHz", "256GB M.2 PCIe NVMe Solid State Drive"]
+    },
+    {
+      "model" : "New Inspiron 13 5000 Laptop",
+      "mrp": "$779.99",
+      "price" : "$749.99",
+      "data" : "10th Generation Intel® Core™ i3-10110U Processor",
+      "specifications" : ["4GB, onboard, LPDDR3, 2133MHz", "128GB M.2 PCIe NVMe Solid State Drive"]
+    }
+  ]},
+   {"15inch":
+  [{
+    "model" : "G3",
+    "price" : "$733.3",
+    "data" : "Gaming laptops engineered with NVIDIA® GeForce® discrete graphics, 9th Gen Intel® processors and a thin design for a sleek gaming experience.",
+    "specifications" : ["New 15''"]
+  },
+    {
+      "model" : "G5",
+      "price" : "$849.99",
+      "data" : "15-inch gaming laptop with up to NVIDIA© GeForce RTX™ graphics, up to 9th gen Intel® Core™ i7 processors, stunning display options, and game-ready performance.",
+      "specifications" : ["15'' (5590)", "15'' Special Edition (5590)"]
+    },
+    {
+      "model" : "G7",
+      "price" : "$999.99",
+      "data" : "Slim gaming laptops with NVIDIA© GeForce RTX™ graphics, up to 9th gen Intel® Core™ i9 processors, riveting display options, and an optional 4-zone RGB Keyboard.",
+      "specifications" : ["15'' (7590)", "17''"]
+    }
+  ]}]
+}

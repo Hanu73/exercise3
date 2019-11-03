@@ -1,0 +1,229 @@
+
+.row{
+    margin-left:0% !important;
+    display: flex !important;
+}
+.borderGrey{
+    border : 1px solid #ddd;
+}
+.padding-5{
+    padding : 5%
+}
+
+.names{
+    font-size: 18px;
+}
+
+.hoverStyles:hover{
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 40px rgba(0,0,0,.2);
+    cursor: pointer;
+}
+.mt-5{
+    margin-top : 5%
+}
+.mainBg{
+    background: #eee;
+}
+.bgWhite{
+    background: #fff
+}
+
+.srchBlock{
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.int-search-controls {
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.mtop-1{
+    margin-top: 1%;
+}
+
+.input-group, .input-group-append{
+    display: flex !important;
+}
+.btnStyle{
+    color: #007db8;
+    background-color: #f9f9f9;
+    border-color: #ccc;
+    border-radius : 0% !important;
+}
+
+.blockHeight{
+    height: 213px;
+}
+
+.mtop-7{
+    margin-top: 7%;
+}
+
+.borderTop{
+    border-top: 1px solid #ddd;
+}
+.marginLeft15minus{
+    margin-left: -15px !important;
+}
+.noPadding{
+    padding: 0%;
+}
+.borderRight {
+    border-right: 1px solid #ddd;
+}
+.mtop2{
+    padding-top: 4%;
+}
+
+.colorBlue{
+    color: #007db8;
+}
+.cursorPointer{
+    cursor: pointer !important;
+}
+
+.cardStyle{
+    border-left: 3px solid #007db8;
+}
+.cardStyleGrey{
+    border-left: 3px solid #777777;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.min-ht193 {
+    min-height: 193px;
+}
+
+.min-ht210{
+    min-height: 210px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.bgClrpur{
+    background-color: #6f2586;
+    color:#fff;
+}
+
+.mt-20{
+    margin-top: 20%;
+}
+
+.bgClrGreen{
+    background-color: #008001;
+    color:#fff;
+}
+
+.positionStyle{
+    position: absolute;
+    top:35%;
+    background-color: #4444449c;
+    color:#fff;
+    padding: 2%;
+    width: 100% !important;
+    left: 0;
+}
+
+.imgTitle{
+    font-size: 16px;
+}
+
+#price1, #price2, #price3, #price4, #price5, #price6, #price7, #price8 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.borderBottom{
+    border-bottom: 3px solid #5656ec !important;
+}
+.headingM{
+    color: #007db8;
+}
+.subHeadingM{
+    font-size: 14px;
+}
+
+.imgSize{
+    width: 70px;
+    height: 70px;
+}
+.pad-top3{
+    padding-top: 3%;
+}
+.noPadLeft{
+    padding-left: 0% !important;
+}
+.noPadLeftRight{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.borderBottomGrey{
+    border-bottom: 1px solid grey;
+}
+.paddingbottom-3{
+    padding-bottom: 3%;
+}
+.paddingbottom-2{
+    padding-bottom: 2%;
+}
+.pad-top1{
+    padding-top: 1%;
+}
+.bgGrey{
+    background-color: #eee;
+}
+.padLeft3{
+    padding-left: 3%;
+}
